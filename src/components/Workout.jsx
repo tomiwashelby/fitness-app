@@ -12,7 +12,7 @@ const Workout = (props) => {
 					(
 					<div 
 						onClick={() => window.location.href = '#generate'} 
-						className='text-xl sm:text-2xl md:text-3xl flex justify-center items-center border border-blue-400 duration-200 hover:border-blue-600 px-2 py-3 rounded-lg cursor-pointer capitalize w-full'
+						className='text-xl sm:text-2xl md:text-3xl flex justify-center items-center border border-blue-400 duration-200 hover:border-blue-600 px-2 py-3 rounded-lg cursor-pointer w-full'
 					>
 						<p className='text-center'>Pick your preferred workout<LuSquareArrowUp className=' inline ml-2 sm:ml-3 md:ml-4' /></p>
 					</div>
